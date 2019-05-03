@@ -38,11 +38,11 @@ WDnCNN---denoised_figs(folder)
 
 Test pretrained WDnCNN models:
 
-Two pretrained WDnCNN models, WDnCNN_model_gray and WDnCNN_model_color, are used for testing. Run demo.py to test the WDnCNN for both synthetic and real-world noise removal. Due to the file size limit, we only uploaded tow real-world noisy databases: RNI6 (real-world grayscale), and RNI15(real-world color) for testing in this project. If you want to test WDnCNN on other datasets or images, you may download your dataset and change the file path in demo.py for correctly loading data. For synthetic noisy image restoration, a noise level sigma_n is needed to be set manually. The denoised images will be saved in 'denoised_figs' folder for further visual quality evaluation.
+Two pretrained WDnCNN models, WDnCNN_model_gray and WDnCNN_model_color, are used for testing. Run demo.py to test the WDnCNN for both synthetic and real-world noise removal. Due to the file size limit, we only uploaded two real-world noisy databases: RNI6 (real-world grayscale), and RNI15(real-world color) for testing in this project. If you want to test WDnCNN on other images, you may download your databases and change the file path in demo.py for correctly loading data. For synthetic noisy image restoration, a noise level sigma_n is needed to be set manually. The denoised images will be saved in 'denoised_figs' folder for further visual quality evaluation.
 
 Train WDnCNN models:
 
-To train the WDnCNN model, you need first download the three public databases: BSD400, Waterloo Exploration Database, and the validation set of ImageNet from their offical websites. Then modify the file path in data.py to correctly load the training data. You can change the 'mode' parameter in cfg.py to set the training mode. ('mode' can be 'gray' or 'color'. The 'color' mode is the default). Run the train.py to begin the training process.
+To train the WDnCNN model, you need first download the three public databases: BSD400, Waterloo Exploration Database, and the validation set of ImageNet from their offical websites. Then modify the file path in data.py to correctly load the training data. You can change the 'mode' parameter in cfg.py to set the training mode. ('mode' can be 'gray' or 'color'. The 'color' mode is default). Run the train.py to begin the training process.
 
 To follow the band discriminative training criterion (BDT), the training process will end in every 50 epochs, and then you need to modify the weights mu_k of different bands in Loss_Function.py as shown in the paper. To resume training process, you need to set the correct 'beginner' in cfg.py, and load the last trained model by modifying the model name of 'net.load_state_dict()' in train.py. Run train.py again to continue training.
 
