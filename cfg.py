@@ -15,3 +15,4 @@ class par():
         img_channel = 3
     output_channel = 4 * img_channel
     input_channel = img_channel + 1
+    
