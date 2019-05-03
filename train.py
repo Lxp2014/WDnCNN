@@ -159,3 +159,4 @@ for i in range(beginner, beginner+50):
             log = open('./log/log_c.txt', 'a')
             log.write('\n' + dataset_name + ': ave_PSNR: %.4f, ave_SSIM: %.4f' % (PSNR, SSIM))
             log.close()
+
