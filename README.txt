@@ -1,4 +1,4 @@
-WDnCNN: ENHANCING CNN BASED DENOISER BY SPATIAL AND SPECTRAL ANALYSIS
+WDnCNN: ENHANCING A CNN BASED DENOISER BY SPATIAL AND SPECTRAL ANALYSIS
 
 This is the training and testing code in Pytorch for the WDnCNN. The whole project contains the following files
 
