@@ -127,3 +127,4 @@ class Denoising_Net_color(nn.Module):
                 init.constant_(m.weight, 1)
                 init.constant_(m.bias, 0)
 
+                
