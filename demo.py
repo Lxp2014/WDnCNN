@@ -285,3 +285,4 @@ else:
 cv2.imwrite('./denoised_figs/noisy.png', np.round(img_n*255), [int(cv2.IMWRITE_PNG_COMPRESSION), 0])
 cv2.imwrite('./denoised_figs/original.png', np.round(img_clean*255), [int(cv2.IMWRITE_PNG_COMPRESSION), 0])
 cv2.imwrite('./denoised_figs/denoised.png', np.round(img_denoised*255), [int(cv2.IMWRITE_PNG_COMPRESSION), 0])
+
