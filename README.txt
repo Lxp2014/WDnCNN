@@ -54,3 +54,5 @@ To follow the band discriminative training criterion (BDT), the training process
 The training process will be recorded in ./log/log.txt or log_c.txt for gray and color mode, respectively. To use different wavelet filters for training, you can simply change the parameter 'wave_base' in cfg.py to sym2, sym8, db2, etc.
 
 If you find any bug, please contact ruizhao19921010@gmail.com.
+
+(This project may not be very well-organized, but it works. We will further revise it to be more structured and understandable.)
