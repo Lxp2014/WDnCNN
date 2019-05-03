@@ -259,9 +259,10 @@ if len(img_clean.shape) == 2:
     img_denoised = net(noisy.cuda())
     img_denoised = img_denoised.cpu().detach().numpy().squeeze()
     img_denoised = gray_reconstruction(img_denoised, wave_base)
+    img_denoised = img_denoised[0:img_clean.shape[0], 0:img_clean.shape[1]]
     if Dir != 'RNI6':
-        psnr = round(compare_psnr(img_denoised[0:img_clean.shape[0], 0:img_clean.shape[1]], img_clean, data_range=1), 3)
-        ssim = round(compare_ssim(img_denoised[0:img_clean.shape[0], 0:img_clean.shape[1]], img_clean, data_range=1, multichannel=False), 3)
+        psnr = round(compare_psnr(img_denoised, img_clean, data_range=1), 3)
+        ssim = round(compare_ssim(img_denoised, img_clean, data_range=1, multichannel=False), 3)
         print('PSNR: %.4f, SSIM: %.4f' % (psnr, ssim))
 else:
     net = Denoising_Net_color()
@@ -275,9 +276,10 @@ else:
     img_denoised = net(noisy.cuda())
     img_denoised = img_denoised.cpu().detach().numpy().squeeze()
     img_denoised = color_reconstruction(img_denoised, wave_base)
+    img_denoised = img_denoised[0:img_clean.shape[0], 0:img_clean.shape[1], :]
     if Dir != 'RNI15':
-        psnr = round(compare_psnr(img_denoised[0:img_clean.shape[0],0:img_clean.shape[1], :], img_clean, data_range=1), 3)
-        ssim = round(compare_ssim(img_denoised[0:img_clean.shape[0],0:img_clean.shape[1], :], img_clean, data_range=1, multichannel=True), 3)
+        psnr = round(compare_psnr(img_denoised, img_clean, data_range=1), 3)
+        ssim = round(compare_ssim(img_denoised, img_clean, data_range=1, multichannel=True), 3)
         print('Test Image: '+img_name+' Noise Level: %d, PSNR: %.4f, SSIM: %.4f' % (sigma, psnr, ssim))
 
 cv2.imwrite('./denoised_figs/noisy.png', np.round(img_n*255), [int(cv2.IMWRITE_PNG_COMPRESSION), 0])
