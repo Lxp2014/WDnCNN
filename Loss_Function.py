@@ -36,6 +36,7 @@ class myLoss_color(nn.Module):
         loss = self.lfc(output * mask, target * mask).div_(2)
         return loss
 
+    
 
 
 
