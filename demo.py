@@ -183,7 +183,6 @@ def file_name(file_dir):
 #      For Real World Noise Removal
 # Audrey_Hepburn.jpg (Noise_sigma = 10)
 # Bears.png          (Noise_sigma = 15)
-# Boy.png            (Noise_sigma = 45)
 # Dog.png            (Noise_sigma = 28)
 # Flowers.png        (Noise_sigma = 70)
 # Frog.png           (Noise_sigma = 15)
@@ -222,7 +221,6 @@ if Dir == 'RNI15':
     img_n = img_clean
     if Test_Img == 'Audrey_Hepburn.jpg':  sigma = 10
     elif Test_Img == 'Bears.png':         sigma = 15
-    elif Test_Img == 'Boy.png':           sigma = 45
     elif Test_Img == 'Dog.png':           sigma = 28
     elif Test_Img == 'Flowers.png':       sigma = 70
     elif Test_Img == 'Frog.png':          sigma = 15
