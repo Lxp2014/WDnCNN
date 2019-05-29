@@ -1,8 +1,8 @@
-WDnCNN: ENHANCING A CNN BASED DENOISER BY SPATIAL AND SPECTRAL ANALYSIS
+WDnCNN: ENHANCEMENT OF A CNN-BASED DENOISER BASED ON SPATIAL AND SPECTRAL ANALYSIS
 
 Requirements and Dependencies: To run the program, you should install Python 3.6.5, Pytorch 0.4.1, and cuda-9.2.
 
-This is the training and testing code in Pytorch for the WDnCNN. The whole project contains the following files
+This is the offical implementation in Pytorch for 'WDnCNN: ENHANCEMENT OF A CNN-BASED DENOISER BASED ON SPATIAL AND SPECTRAL ANALYSIS'. The whole project contains the following files:
 
 WDnCNN---denoised_figs(folder)
       			      ---noisy.png
