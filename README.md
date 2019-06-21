@@ -25,7 +25,7 @@ Please refer to the paper and the README.txt file.
 :-------------------------:|:-------------------------:
 Noisy                      |  CBM3D
 ![](https://github.com/RickZ1010/WDnCNN-ENHANCEMENT-OF-A-CNN-BASED-DENOISER-BASED-ON-SPATIAL-AND-SPECTRAL-ANALYSIS/blob/master/figs/Flowers_F.png)  |  ![](https://github.com/RickZ1010/WDnCNN-ENHANCEMENT-OF-A-CNN-BASED-DENOISER-BASED-ON-SPATIAL-AND-SPECTRAL-ANALYSIS/blob/master/figs/Flowers_W.png)
-FFDNet                     |  WDnCNN
+FFDNet                     |  Ours
 
 ## Citation
     @INPROCEEDINGS{WDNCNN  
