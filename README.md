@@ -30,7 +30,7 @@ FFDNet                     |  Ours
 ### Real-world Denoising Benchmark
 1000 cropped real-world noisy images from Darmstadt Noise Dataset. You can find this benchmark at [DND](https://noise.visinf.tu-darmstadt.de/). For denoising the real-world noisy images in DND, we further fine tune our model on PolyU-Real-World-Noisy-Images-Dataset [PRWNID](https://github.com/csjunxu/PolyU-Real-World-Noisy-Images-Dataset).
 
-(result coming soon)
+You can find our results as WDnCNN+ on DND official website. We achieve 38.87 dB on sRGB images.
 
 ## Contact
 If you have questions, problems with the code, or find a bug, please let us know. Contact Rui Zhao at rick10.zhao@connect.polyu.hk  
