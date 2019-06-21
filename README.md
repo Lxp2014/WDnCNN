@@ -28,8 +28,9 @@ Noisy                      |  CBM3D
 FFDNet                     |  Ours
 
 ### Real-world Denoising Benchmark
-1000 cropped real-world noisy images from Darmstadt Noise Dataset.
-coming soon
+1000 cropped real-world noisy images from Darmstadt Noise Dataset. You can find this benchmark at [DND](https://noise.visinf.tu-darmstadt.de/). For denoising the real-world noisy images in DND, we further fine tune our model on PolyU-Real-World-Noisy-Images-Dataset [PRWNID](https://github.com/csjunxu/PolyU-Real-World-Noisy-Images-Dataset).
+
+(result coming soon)
 
 ## Citation
     @INPROCEEDINGS{WDNCNN  
