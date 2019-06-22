@@ -44,5 +44,5 @@ Thank you!
     year={2019},  
     volume={},  
     number={},  
-    month={Oct},  
+    month={Sep.},  
     }
