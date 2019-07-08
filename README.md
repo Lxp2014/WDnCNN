@@ -37,6 +37,7 @@ If you have questions, problems with the code, or find a bug, please let us know
 Thank you!
 
 ## Citation
+<!--
     @INPROCEEDINGS{WDNCNN  
     author={R. {Zhao} and K. M. {Lam} and D. P.K. {Lun}},  
     booktitle={2019 26th IEEE International Conference on Image Processing (ICIP)},  
@@ -46,3 +47,4 @@ Thank you!
     number={},  
     month={Sep.},  
     }
+-->
