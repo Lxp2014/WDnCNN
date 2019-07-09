@@ -33,7 +33,7 @@ FFDNet                     |  Ours
 You can find our results as WDnCNN+ on the [DND official website](https://noise.visinf.tu-darmstadt.de/benchmark/#overview). We achieve **38.87dB** on sRGB images.
 
 ## Contact
-If you have questions, problems with the code, or find a bug, please let us know. Contact Rui Zhao at rick10.zhao@connect.polyu.hk or zhaorui19921010@yahoo.com  
+If you have questions, problems with the code, or find a bug, please let us know. Contact Rui Zhao at rick10.zhao@connect.polyu.hk or rui.zhao16@alumni.imperial.ac.uk  
 Thank you!
 
 ## Citation
