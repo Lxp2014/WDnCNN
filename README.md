@@ -39,14 +39,16 @@ If you have questions, problems with the code, or find a bug, please let us know
 Thank you!
 
 ## Citation
-<!--
-    @INPROCEEDINGS{WDNCNN  
-    author={R. {Zhao} and K. M. {Lam} and D. P.K. {Lun}},  
-    booktitle={2019 26th IEEE International Conference on Image Processing (ICIP)},  
-    title={ENHANCEMENT OF A CNN-BASED DENOISER BASED ON SPATIAL AND SPECTRAL ANALYSIS},  
-    year={2019},  
-    volume={},  
-    number={},  
-    month={Sep.},  
-    }
--->
+
+    @INPROCEEDINGS{8804295, 
+        author={R. {Zhao} and K. {Lam} and D. P. K. {Lun}}, 
+        booktitle={2019 IEEE International Conference on Image Processing (ICIP)}, 
+        title={Enhancement of a CNN-Based Denoiser Based on Spatial and Spectral Analysis}, 
+        year={2019}, 
+        volume={}, 
+        number={}, 
+        pages={1124-1128}, 
+        keywords={Image denoising;convolutional neural networks;spatial-spectral analysis;discrete wavelet transform}, 
+        doi={10.1109/ICIP.2019.8804295}, 
+        ISSN={2381-8549}, 
+        month={Sep.},}
