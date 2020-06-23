@@ -1,4 +1,7 @@
 #  [WDnCNN: ENHANCEMENT OF A CNN-BASED DENOISER BASED ON SPATIAL AND SPECTRAL ANALYSIS](https://github.com/RickZ1010/WDnCNN-ENHANCEMENT-OF-A-CNN-BASED-DENOISER-BASED-ON-SPATIAL-AND-SPECTRAL-ANALYSIS "悬停显示")
+This is the implementation of the following paper:
+**ENHANCEMENT OF A CNN-BASED DENOISER BASED ON SPATIAL AND SPECTRAL ANALYSIS**
+*Rui Zhao, Daniel P.K. Lun and Kin-Man Lam*
 
 ## Dependencies
 Python >= 3.6.5, Pytorch >= 0.4.1, and cuda-9.2.
