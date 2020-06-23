@@ -5,6 +5,8 @@ This is the implementation of the following paper:
 
 *Rui Zhao, Daniel P.K. Lun and Kin-Man Lam*
 
+Abstract: Convolutional neural network (CNN)-based image denoising methods have been widely studied recently, because of their high-speed processing capability and good visual quality. However, most of the existing CNN-based denoisers learn the image prior from the spatial domain, and suffer from the problem of spatially variant noise, which limits their performance in real-world image denoising tasks. In this paper, we propose a discrete wavelet denoising CNN (WDnCNN), which restores images corrupted by various noise with a single model. Since most of the content or energy of natural images resides in the low-frequency spectrum, their transformed coefficients in the frequency domain are highly imbalanced. To address this issue, we present a band normalization module (BNM) to normalize the coefficients from different parts of the frequency spectrum. Moreover, we employ a band discriminative training (BDT) criterion to enhance the model regression. We evaluate the proposed WDnCNN, and compare it with other state-of-the-art denoisers. Experimental results show that WDnCNN achieves promising performance in both synthetic and real noise reduction, making it a potential solution to many practical image denoising applications.
+
 ## Dependencies
 Python >= 3.6.5, Pytorch >= 0.4.1, and cuda-9.2.
 
