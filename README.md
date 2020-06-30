@@ -1,5 +1,5 @@
 #  [WDnCNN: ENHANCEMENT OF A CNN-BASED DENOISER BASED ON SPATIAL AND SPECTRAL ANALYSIS](https://github.com/RickZ1010/WDnCNN-ENHANCEMENT-OF-A-CNN-BASED-DENOISER-BASED-ON-SPATIAL-AND-SPECTRAL-ANALYSIS "悬停显示")
-This is the implementation of the following paper:
+This is the implementation of the following [paper](https://arxiv.org/abs/2006.15517):
 
 **ENHANCEMENT OF A CNN-BASED DENOISER BASED ON SPATIAL AND SPECTRAL ANALYSIS**
 
